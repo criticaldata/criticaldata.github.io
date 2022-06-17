@@ -2,14 +2,14 @@
 ---
 categories: ["Books"]
 people: ["Alistair Johnson", "Dominic Marshall", "Jesse Raffa", "Justin Salciccioli", "Kenneth Paik", "Leo Anthony Celi", "Matthieu Komorowski", "Mohammad Ghassemi", "Peter Charlton", "Tom Joseph Pollard", "Tristan Naumann"]
-title: "Secondary Analysis of Electronic Health Records"
-linkTitle: "Textbook: Secondary Analysis of Electronic Health Records"
+title: "Textbook: Secondary Analysis of Electronic Health Records, 2016"
+linkTitle: "Textbook: Secondary Analysis of Electronic Health Records, 2016"
 date: 2016-06-01
 description: >
   MIT Critical Data published an open access textbook walking through the process for analyzing health data in 2016 which has been downloaded more than 1.3 million times.
 ---
 
-<a href="https://link.springer.com/book/10.1007/978-3-319-43742-2" target="_blank">Download at Springer</a>
+<a href="https://link.springer.com/book/10.1007/978-3-319-43742-2" target="_blank">Published by Springer</a>
 
 This book trains the next generation of scientists representing different disciplines to leverage the data generated during routine patient care. It formulates a more complete lexicon of evidence-based recommendations and support shared, ethical decision making by doctors with their patients.
 
@@ -30,3 +30,5 @@ Authors _(Listed Alphabetically)_:
 >    - Peter Charlton
 >    - Tom Joseph Pollard
 >    - Tristan Naumann
+
+![Global Health Informatics](cover.png "Global Health Informatics")

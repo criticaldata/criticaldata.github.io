@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.99.1" />
+<meta name="robots" content="index, follow">
+
+
+<link rel="shortcut icon" href="/favicons/favicon.ico" >
+<link rel="apple-touch-icon" href="/favicons/apple-touch-icon-180x180.png" sizes="180x180">
+<link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicons/android-36x36.png" sizes="36x36">
+<link rel="icon" type="image/png" href="/favicons/android-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/favicons/android-72x72.png" sizes="72x72">
+<link rel="icon" type="image/png" href="/favicons/android-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
+<link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
+
+<title>Textbook: Secondary Analysis of Electronic Health Records, 2016 |  </title>
+<meta name="description" content="MIT Critical Data published an open access textbook walking through the process for analyzing health data in 2016 which has been downloaded more than 1.3 million times.
+">
+<meta property="og:title" content="Textbook: Secondary Analysis of Electronic Health Records, 2016" />
+<meta property="og:description" content="MIT Critical Data published an open access textbook walking through the process for analyzing health data in 2016 which has been downloaded more than 1.3 million times.
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/news/curriculum/text_secondary_analysis/" /><meta property="og:image" content="/news/curriculum/text_secondary_analysis/cover.png"/><meta property="article:section" content="news" />
+<meta property="article:published_time" content="2016-06-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2016-06-01T00:00:00+00:00" />
+
+<meta itemprop="name" content="Textbook: Secondary Analysis of Electronic Health Records, 2016">
+<meta itemprop="description" content="MIT Critical Data published an open access textbook walking through the process for analyzing health data in 2016 which has been downloaded more than 1.3 million times.
+"><meta itemprop="datePublished" content="2016-06-01T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2016-06-01T00:00:00+00:00" />
+<meta itemprop="wordCount" content="254"><meta itemprop="image" content="/news/curriculum/text_secondary_analysis/cover.png">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/news/curriculum/text_secondary_analysis/cover.png"/>
+<meta name="twitter:title" content="Textbook: Secondary Analysis of Electronic Health Records, 2016"/>
+<meta name="twitter:description" content="MIT Critical Data published an open access textbook walking through the process for analyzing health data in 2016 which has been downloaded more than 1.3 million times.
+"/>
+
+
+
+
+<link rel="preload" href="/scss/main.min.797c5f7d234a362ec70c32e8c4a046fa94cf3729b139ae20fe6eebec16bf81ab.css" as="style">
+<link href="/scss/main.min.797c5f7d234a362ec70c32e8c4a046fa94cf3729b139ae20fe6eebec16bf81ab.css" rel="stylesheet" integrity="">
+
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK"
+  crossorigin="anonymous"></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-00000000-0', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  </head>
+  <body class="td-page td-blog">
+    <header>
+      
+<nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar">
+        <a class="navbar-brand" href="/">
+		<span class="navbar-logo"><svg id="SVG_website" data-name="SVG website" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 729.5 75.22"><defs><style>.cls-1{fill:#fff;stroke:#666766}.cls-1,.cls-2,.cls-3{stroke-miterlimit:10}.cls-2{fill:#bbb;stroke:#fff}.cls-3{fill:#a41f35;stroke:#f9f9fa}</style></defs><g id="Layer_17" data-name="Layer 17"><path class="cls-1" d="M2212.57 208.85a21.2 21.2.0 0017.32-8.38l9.21 9.49q-11 12.35-25.84 12.35t-24.5-9.4q-9.63-9.41-9.63-23.72t9.81-23.91a33 33 0 0124-9.58 34 34 0 0126.53 12.06l-8.93 10.14q-6.83-8.47-17-8.48a19.76 19.76.0 00-13.86 5.3Q2194 180 2194 189t5.44 14.42A17.93 17.93.0 002212.57 208.85z" transform="translate(-2016.96 -150)"/><path class="cls-1" d="M2276.23 184.16q-6.17.0-9.21 4.38t-3 11.56v21.47h-13.82V172H2264v6.54a23.48 23.48.0 016.68-5.16 18.29 18.29.0 018.15-2.21l.09 13z" transform="translate(-2016.96 -150)"/><path class="cls-1" d="M2290.28 165.69A8.23 8.23.0 112296 168 7.81 7.81.0 012290.28 165.69zM2303 221.57h-13.82V172H2303z" transform="translate(-2016.96 -150)"/><path class="cls-1" d="M2359.93 165.69a8.22 8.22.0 115.76 2.35A7.81 7.81.0 012359.93 165.69zm12.67 55.88h-13.82V172h13.82z" transform="translate(-2016.96 -150)"/><path class="cls-1" d="M2410.55 210.05q6.91.0 12.44-6.91l8.2 9.22q-9.58 9.94-20.73 9.95a26.87 26.87.0 01-18.84-7.05q-7.7-7-7.69-18.43t7.78-18.52a26.41 26.41.0 0118.47-7.14 28.88 28.88.0 0110.83 2.21 27.53 27.53.0 019.63 6.55l-7.19 9.39a17.09 17.09.0 00-12.71-6 13.45 13.45.0 00-9.35 3.54q-3.93 3.56-3.92 9.86t3.92 9.81A13.27 13.27.0 002410.55 210.05z" transform="translate(-2016.96 -150)"/><path class="cls-1" d="M2511.16 221.57h-13.82V153.21h13.82z" transform="translate(-2016.96 -150)"/><path class="cls-1" d="M2587 164.86q9.21 8.43 9.21 23.45t-9 23.77q-9 8.74-27.41 8.75h-22v-64.4h22.75Q2577.75 156.43 2587 164.86zm-10.55 38.28q5.3-5 5.29-14.46t-5.29-14.61q-5.31-5.1-16.26-5.11h-8v39.16h9.12Q2571.11 208.12 2576.41 203.14z" transform="translate(-2016.96 -150)"/><path class="cls-1" d="M2469.73 220.71a14.47 14.47.0 01-1.31-4.37 15.73 15.73.0 01-12.28 5.27 17.26 17.26.0 01-11.85-4.14 13.3 13.3.0 01-4.7-10.44q0-7.74 5.73-11.87T2461.9 191h6v-2.79a8 8 0 00-1.73-5.39c-1.15-1.35-3-2-5.47-2a7.75 7.75.0 00-5.15 1.58 5.35 5.35.0 00-1.86 4.31h-13a13.11 13.11.0 012.6-7.82 17.3 17.3.0 017.38-5.65 27 27 0 0110.71-2.05q9 0 14.28 4.53t5.29 12.7v21.1q0 6.93 1.93 10.48v.77zm-10.76-9a11.15 11.15.0 005.31-1.29 8.39 8.39.0 003.6-3.44v-8.36H2463q-9.75.0-10.39 6.74v.77a5.2 5.2.0 001.71 4A6.64 6.64.0 002459 211.67z" transform="translate(-2016.96 -150)"/><path class="cls-1" d="M2635.81 220a14.4 14.4.0 01-1.31-4.36 15.72 15.72.0 01-12.28 5.26 17.26 17.26.0 01-11.85-4.14 13.29 13.29.0 01-4.7-10.43q0-7.74 5.73-11.88t16.58-4.18h6v-2.79a8 8 0 00-1.73-5.4c-1.15-1.35-3-2-5.46-2a7.78 7.78.0 00-5.16 1.58 5.36 5.36.0 00-1.86 4.32h-13a13.06 13.06.0 012.61-7.83 17.26 17.26.0 017.37-5.65 27 27 0 0110.71-2q9 0 14.28 4.52t5.29 12.71v21.09q0 6.93 1.93 10.49V220zm-10.75-9a11.22 11.22.0 005.3-1.28 8.45 8.45.0 003.6-3.44v-8.37h-4.86q-9.75.0-10.39 6.75v.76a5.2 5.2.0 001.71 4A6.64 6.64.0 002625.06 210.93z" transform="translate(-2016.96 -150)"/><path class="cls-1" d="M2732.82 220a14.41 14.41.0 01-1.3-4.36 15.72 15.72.0 01-12.28 5.26 17.3 17.3.0 01-11.86-4.14 13.32 13.32.0 01-4.7-10.43q0-7.74 5.74-11.88t16.58-4.18h6v-2.79a8 8 0 00-1.73-5.4q-1.74-2-5.47-2a7.75 7.75.0 00-5.15 1.58 5.37 5.37.0 00-1.87 4.32h-13a13.06 13.06.0 012.61-7.83 17.3 17.3.0 017.38-5.65 27 27 0 0110.71-2q9 0 14.28 4.52t5.28 12.71v21.09q0 6.93 1.94 10.49V220zm-10.75-9a11.26 11.26.0 005.31-1.28 8.45 8.45.0 003.6-3.44v-8.37h-4.86q-9.76.0-10.39 6.75l-.05.76a5.2 5.2.0 001.71 4A6.64 6.64.0 002722.07 210.93z" transform="translate(-2016.96 -150)"/><path class="cls-1" d="M2679 160v12h8.32v9.54H2679v24.29a5.8 5.8.0 001 3.87q1 1.17 4 1.17a20.71 20.71.0 003.82-.31v9.85a26.74 26.74.0 01-7.87 1.17q-13.68.0-13.94-13.81V181.53h-7.11V172H2666V160z" transform="translate(-2016.96 -150)"/><path class="cls-1" d="M2334 159.93v12h8.32v9.54H2334v24.29a5.8 5.8.0 001 3.87q1 1.17 4 1.17a20.77 20.77.0 003.83-.32v9.85a26.81 26.81.0 01-7.88 1.17q-13.66.0-13.94-13.81V181.44h-7.11V171.9H2321v-12z" transform="translate(-2016.96 -150)"/></g><rect class="cls-2" x="102.06" y=".5" width="39.06" height="15.63"/><rect class="cls-2" x="25.89" y=".5" width="15.63" height="50.78"/><rect class="cls-2" x="51.28" y=".5" width="15.63" height="74.22"/><rect class="cls-2" x=".5" y=".5" width="15.63" height="74.22"/><rect class="cls-2" x="102.06" y="25.89" width="15.63" height="48.83"/><rect class="cls-2" x="76.67" y=".5" width="15.63" height="15.63"/><rect class="cls-3" x="76.67" y="25.89" width="15.63" height="48.83"/></svg></span><span class="font-weight-bold"> </span>
+	</a>
+	<div class="td-navbar-nav-scroll ml-md-auto" id="main_navbar">
+		<ul class="navbar-nav mt-2 mt-lg-0">
+			
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				
+				
+				
+				
+				<a class="nav-link" href="/consortium/" ><span>Consortium</span></a>
+			</li>
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				
+				
+				
+				
+				<a class="nav-link active" href="/news/" ><span class="active">Activities</span></a>
+			</li>
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				
+				
+				
+				
+				<a class="nav-link" href="/tech/" ><span>Tech Talks</span></a>
+			</li>
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				
+				
+				
+				
+				<a class="nav-link" href="/about/" ><span>About</span></a>
+			</li>
+			
+			
+			
+		</ul>
+	</div>
+	<div class="navbar-nav d-none d-lg-block"></div>
+</nav>
+
+    </header>
+    <div class="container-fluid td-outer">
+      <div class="td-main">
+        <div class="row flex-xl-nowrap">
+          <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
+            
+<div id="td-sidebar-menu" class="td-sidebar__inner">
+  <form class="td-sidebar__search d-flex align-items-center">
+    
+    <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ml-3 fas fa-bars" type="button" data-toggle="collapse" data-target="#td-section-nav" aria-controls="td-docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    </button>
+  </form>
+  <nav class="collapse td-sidebar-nav foldable-nav" id="td-section-nav">
+    <ul class="td-sidebar-nav__section pr-md-3 ul-0">
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-news-li">
+  <a href="/news/" title="Latest News" class="align-left pl-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-news"><span class="">Activities</span></a>
+  <ul class="ul-1">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-newsannounce-li">
+  <input type="checkbox" id="m-newsannounce-check"/>
+  <label for="m-newsannounce-check"><a href="/news/announce/" title="News About Docsy" class="align-left pl-0  td-sidebar-link td-sidebar-link__section" id="m-newsannounce"><i class="fas fa-bullhorn"></i><span class="">Announcements</span></a></label>
+  
+  <ul class="ul-2 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-newsannouncewebsite_update_2022-li">
+  <input type="checkbox" id="m-newsannouncewebsite_update_2022-check"/>
+  <label for="m-newsannouncewebsite_update_2022-check"><a href="/news/announce/website_update_2022/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-newsannouncewebsite_update_2022"><span class="">Website Update 2022</span></a></label>
+  
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-newsupcoming-li">
+  <input type="checkbox" id="m-newsupcoming-check"/>
+  <label for="m-newsupcoming-check"><a href="/news/upcoming/" class="align-left pl-0  td-sidebar-link td-sidebar-link__section" id="m-newsupcoming"><i class="fas fa-calendar"></i><span class="">Upcoming Events</span></a></label>
+  
+  <ul class="ul-2 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-newsupcoming2022-0803-datathon-colombia-li">
+  <input type="checkbox" id="m-newsupcoming2022-0803-datathon-colombia-check"/>
+  <label for="m-newsupcoming2022-0803-datathon-colombia-check"><a href="/news/upcoming/2022-0803-datathon-colombia/" title="2022 Make Health Colombia" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-newsupcoming2022-0803-datathon-colombia"><span class="">2022 08-03: Colombia</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-newsupcoming2022-0917-norway-li">
+  <input type="checkbox" id="m-newsupcoming2022-0917-norway-check"/>
+  <label for="m-newsupcoming2022-0917-norway-check"><a href="/news/upcoming/2022-0917-norway/" title="2022 Eitri Medical Datathon" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-newsupcoming2022-0917-norway"><span class="">2022 09-16: Norway</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-newsupcoming2022-1015-austrailia-li">
+  <input type="checkbox" id="m-newsupcoming2022-1015-austrailia-check"/>
+  <label for="m-newsupcoming2022-1015-austrailia-check"><a href="/news/upcoming/2022-1015-austrailia/" title="2022 AI in Healthcare Training Program &amp; Datathon" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-newsupcoming2022-1015-austrailia"><span class="">2022 10-15: Australia</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-newsupcoming2022-1103-spain-li">
+  <input type="checkbox" id="m-newsupcoming2022-1103-spain-check"/>
+  <label for="m-newsupcoming2022-1103-spain-check"><a href="/news/upcoming/2022-1103-spain/" title="2022 AI in Healthcare Training Program &amp; Datathon" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-newsupcoming2022-1103-spain"><span class="">2022 11-03: Spain</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-newsupcoming2022-1201-singapore-li">
+  <input type="checkbox" id="m-newsupcoming2022-1201-singapore-check"/>
+  <label for="m-newsupcoming2022-1201-singapore-check"><a href="/news/upcoming/2022-1201-singapore/" title="2022 AI in Healthcare Training Program &amp; Datathon" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-newsupcoming2022-1201-singapore"><span class="">2022 12-01: Singapore</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-newsupcoming2023_01-chile-li">
+  <input type="checkbox" id="m-newsupcoming2023_01-chile-check"/>
+  <label for="m-newsupcoming2023_01-chile-check"><a href="/news/upcoming/2023_01-chile/" title="2023 Datathon Chile" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-newsupcoming2023_01-chile"><span class="">2023 01: Chile</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-newsupcoming2023-02-thailand-li">
+  <input type="checkbox" id="m-newsupcoming2023-02-thailand-check"/>
+  <label for="m-newsupcoming2023-02-thailand-check"><a href="/news/upcoming/2023-02-thailand/" title="2023 Datathon Thailand" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-newsupcoming2023-02-thailand"><span class="">2023 02: Thailand</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-newsupcoming2023-03-newzealand-li">
+  <input type="checkbox" id="m-newsupcoming2023-03-newzealand-check"/>
+  <label for="m-newsupcoming2023-03-newzealand-check"><a href="/news/upcoming/2023-03-newzealand/" title="2023 Datathon New Zealand" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-newsupcoming2023-03-newzealand"><span class="">2023 03: New Zealand</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-newsupcoming2023-04-brazil-li">
+  <input type="checkbox" id="m-newsupcoming2023-04-brazil-check"/>
+  <label for="m-newsupcoming2023-04-brazil-check"><a href="/news/upcoming/2023-04-brazil/" title="2023 Datathon Brazil" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-newsupcoming2023-04-brazil"><span class="">2023 04: Brazil</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-newsupcoming2023-05-greece-li">
+  <input type="checkbox" id="m-newsupcoming2023-05-greece-check"/>
+  <label for="m-newsupcoming2023-05-greece-check"><a href="/news/upcoming/2023-05-greece/" title="2023 Datathon UK/Greece" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-newsupcoming2023-05-greece"><span class="">2023 05: UK/Greece</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-newsupcoming2023-06-china-li">
+  <input type="checkbox" id="m-newsupcoming2023-06-china-check"/>
+  <label for="m-newsupcoming2023-06-china-check"><a href="/news/upcoming/2023-06-china/" title="2023 Datathon China" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-newsupcoming2023-06-china"><span class="">2023 06: China</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-newsupcoming2023-07-slovakia-li">
+  <input type="checkbox" id="m-newsupcoming2023-07-slovakia-check"/>
+  <label for="m-newsupcoming2023-07-slovakia-check"><a href="/news/upcoming/2023-07-slovakia/" title="2023 Datathon Slovakia" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-newsupcoming2023-07-slovakia"><span class="">2023 07: Slovakia</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-newsupcoming2023-09-japan-li">
+  <input type="checkbox" id="m-newsupcoming2023-09-japan-check"/>
+  <label for="m-newsupcoming2023-09-japan-check"><a href="/news/upcoming/2023-09-japan/" title="2023 Datathon Japan" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-newsupcoming2023-09-japan"><span class="">2023 09: Japan</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-newsupcoming2023-11-spain-li">
+  <input type="checkbox" id="m-newsupcoming2023-11-spain-check"/>
+  <label for="m-newsupcoming2023-11-spain-check"><a href="/news/upcoming/2023-11-spain/" title="2023 Datathon Spain" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-newsupcoming2023-11-spain"><span class="">2023 11: Spain</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-newsupcoming2023-12-argentina-li">
+  <input type="checkbox" id="m-newsupcoming2023-12-argentina-check"/>
+  <label for="m-newsupcoming2023-12-argentina-check"><a href="/news/upcoming/2023-12-argentina/" title="2023 Datathon Argentina" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-newsupcoming2023-12-argentina"><span class="">2023 12: Argentina</span></a></label>
+  
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-newscompleted-li">
+  <input type="checkbox" id="m-newscompleted-check"/>
+  <label for="m-newscompleted-check"><a href="/news/completed/" class="align-left pl-0  td-sidebar-link td-sidebar-link__section" id="m-newscompleted"><i class="fas fa-calendar"></i><span class="">Past Events</span></a></label>
+  
+  <ul class="ul-2 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-newscompletedpre2022-archive-li">
+  <input type="checkbox" id="m-newscompletedpre2022-archive-check"/>
+  <label for="m-newscompletedpre2022-archive-check"><a href="/news/completed/pre2022-archive/" title="MIT Critical Datathons" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-newscompletedpre2022-archive"><span class="">Our Datathons</span></a></label>
+  
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-newspublications-li">
+  <input type="checkbox" id="m-newspublications-check"/>
+  <label for="m-newspublications-check"><a href="/news/publications/" title="News About Docsy" class="align-left pl-0  td-sidebar-link td-sidebar-link__section" id="m-newspublications"><i class="fas fa-marker"></i><span class="">Publications</span></a></label>
+  
+  <ul class="ul-2 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-newspublicationsclinical_ai_quality_improvement-li">
+  <input type="checkbox" id="m-newspublicationsclinical_ai_quality_improvement-check"/>
+  <label for="m-newspublicationsclinical_ai_quality_improvement-check"><a href="/news/publications/clinical_ai_quality_improvement/" title="Clinical artificial intelligence quality improvement: towards continual monitoring and updating of AI algorithms in healthcare" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-newspublicationsclinical_ai_quality_improvement"><span class="">Clinical artificial intelligence quality improvement</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-newspublicationsdistributed_approach_to-regulation_of_clinical_ai-li">
+  <input type="checkbox" id="m-newspublicationsdistributed_approach_to-regulation_of_clinical_ai-check"/>
+  <label for="m-newspublicationsdistributed_approach_to-regulation_of_clinical_ai-check"><a href="/news/publications/distributed_approach_to-regulation_of_clinical_ai/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-newspublicationsdistributed_approach_to-regulation_of_clinical_ai"><span class="">A distributed approach to the regulation of clinical AI</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-newspublicationssystematic_review_federated_learning-li">
+  <input type="checkbox" id="m-newspublicationssystematic_review_federated_learning-check"/>
+  <label for="m-newspublicationssystematic_review_federated_learning-check"><a href="/news/publications/systematic_review_federated_learning/" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-newspublicationssystematic_review_federated_learning"><span class="">A systematic review of federated learning applications for biomedical data</span></a></label>
+  
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-newscurriculum-li">
+  <input type="checkbox" id="m-newscurriculum-check" checked/>
+  <label for="m-newscurriculum-check"><a href="/news/curriculum/" title="News About Docsy" class="align-left pl-0  td-sidebar-link td-sidebar-link__section" id="m-newscurriculum"><i class="fas fa-book"></i><span class="">Curriculum</span></a></label>
+  
+  <ul class="ul-2 foldable">
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-newscurriculumhst953_20220-li">
+  <input type="checkbox" id="m-newscurriculumhst953_20220-check"/>
+  <label for="m-newscurriculumhst953_20220-check"><a href="/news/curriculum/hst953_20220/" title="HST.953: Clinical Data Learning, Visualization, and Deployments" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-newscurriculumhst953_20220"><span class="">HST.953.2022</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-newscurriculumhst936_2022-li">
+  <input type="checkbox" id="m-newscurriculumhst936_2022-check"/>
+  <label for="m-newscurriculumhst936_2022-check"><a href="/news/curriculum/hst936_2022/" title="HST.936 Health Disparities Research and Data Science for Disaster Resilience" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-newscurriculumhst936_2022"><span class="">HST.936.2022</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-newscurriculumhst953_2021-li">
+  <input type="checkbox" id="m-newscurriculumhst953_2021-check"/>
+  <label for="m-newscurriculumhst953_2021-check"><a href="/news/curriculum/hst953_2021/" title="HST.953: Clinical Data Learning, Visualization, and Deployments" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-newscurriculumhst953_2021"><span class="">HST.953.2021</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-newscurriculumtext_global_health_informatics-li">
+  <input type="checkbox" id="m-newscurriculumtext_global_health_informatics-check"/>
+  <label for="m-newscurriculumtext_global_health_informatics-check"><a href="/news/curriculum/text_global_health_informatics/" title="Textbook: Global Health Informatics" class="align-left pl-0  td-sidebar-link td-sidebar-link__page" id="m-newscurriculumtext_global_health_informatics"><span class="">Textbook: Global Health Informatics, 2017</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-newscurriculumtext_secondary_analysis-li">
+  <input type="checkbox" id="m-newscurriculumtext_secondary_analysis-check" checked/>
+  <label for="m-newscurriculumtext_secondary_analysis-check"><a href="/news/curriculum/text_secondary_analysis/" class="align-left pl-0  active td-sidebar-link td-sidebar-link__page" id="m-newscurriculumtext_secondary_analysis"><span class="td-sidebar-nav-active-item">Textbook: Secondary Analysis of Electronic Health Records, 2016</span></a></label>
+  
+</li>
+  </ul>
+</li>
+  </ul>
+</li>
+    </ul>
+  </nav>
+</div>
+
+          </aside>
+          <aside class="d-none d-xl-block col-xl-2 td-sidebar-toc d-print-none">
+            
+<div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
+<a href="https://github.com/criticaldata/criticaldata.github.io/tree/master/content/en/news/curriculum/text_secondary_analysis/index.md" class="td-page-meta--view" target="_blank" rel="noopener"><i class="fa fa-file-alt fa-fw"></i> View page source</a>
+  <a href="https://github.com/criticaldata/criticaldata.github.io/edit/master/content/en/news/curriculum/text_secondary_analysis/index.md" class="td-page-meta--edit" target="_blank" rel="noopener"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
+  <a href="https://github.com/criticaldata/criticaldata.github.io/new/master/content/en/news/curriculum/text_secondary_analysis/index.md?filename=change-me.md&amp;value=---%0Atitle%3A&#43;%22Long&#43;Page&#43;Title%22%0AlinkTitle%3A&#43;%22Short&#43;Nav&#43;Title%22%0Aweight%3A&#43;100%0Adescription%3A&#43;%3E-%0A&#43;&#43;&#43;&#43;&#43;Page&#43;description&#43;for&#43;heading&#43;and&#43;indexes.%0A---%0A%0A%23%23&#43;Heading%0A%0AEdit&#43;this&#43;template&#43;to&#43;create&#43;your&#43;new&#43;page.%0A%0A%2A&#43;Give&#43;it&#43;a&#43;good&#43;name%2C&#43;ending&#43;in&#43;%60.md%60&#43;-&#43;e.g.&#43;%60getting-started.md%60%0A%2A&#43;Edit&#43;the&#43;%22front&#43;matter%22&#43;section&#43;at&#43;the&#43;top&#43;of&#43;the&#43;page&#43;%28weight&#43;controls&#43;how&#43;its&#43;ordered&#43;amongst&#43;other&#43;pages&#43;in&#43;the&#43;same&#43;directory%3B&#43;lowest&#43;number&#43;first%29.%0A%2A&#43;Add&#43;a&#43;good&#43;commit&#43;message&#43;at&#43;the&#43;bottom&#43;of&#43;the&#43;page&#43;%28%3C80&#43;characters%3B&#43;use&#43;the&#43;extended&#43;description&#43;field&#43;for&#43;more&#43;detail%29.%0A%2A&#43;Create&#43;a&#43;new&#43;branch&#43;so&#43;you&#43;can&#43;preview&#43;your&#43;new&#43;file&#43;and&#43;request&#43;a&#43;review&#43;via&#43;Pull&#43;Request.%0A" class="td-page-meta--child" target="_blank" rel="noopener"><i class="fa fa-edit fa-fw"></i> Create child page</a>
+  <a href="https://github.com/criticaldata/criticaldata.github.io/issues/new?title=Textbook:%20Secondary%20Analysis%20of%20Electronic%20Health%20Records,%202016" class="td-page-meta--issue" target="_blank" rel="noopener"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
+  <a href="https://github.com/criticaldata/issues/new" class="td-page-meta--project-issue" target="_blank" rel="noopener"><i class="fas fa-tasks fa-fw"></i> Create project issue</a>
+  
+</div>
+
+            
+
+
+
+
+            
+
+	
+		
+			
+				
+			
+			
+
+
+
+  
+  
+    <div class="taxonomy taxonomy-terms-cloud taxo-categories">
+      
+        <h5 class="taxonomy-title">Categories</h5>
+      
+      <ul class="taxonomy-terms">
+        
+          <li><a class="taxonomy-term" href="/categories/books/" data-taxonomy-term="books"><span class="taxonomy-label">Books</span><span class="taxonomy-count">2</span></a></li>
+        
+          <li><a class="taxonomy-term" href="/categories/consortium/" data-taxonomy-term="consortium"><span class="taxonomy-label">Consortium</span><span class="taxonomy-count">5</span></a></li>
+        
+          <li><a class="taxonomy-term" href="/categories/courses/" data-taxonomy-term="courses"><span class="taxonomy-label">Courses</span><span class="taxonomy-count">3</span></a></li>
+        
+          <li><a class="taxonomy-term" href="/categories/datathons/" data-taxonomy-term="datathons"><span class="taxonomy-label">Datathons</span><span class="taxonomy-count">16</span></a></li>
+        
+          <li><a class="taxonomy-term" href="/categories/publications/" data-taxonomy-term="publications"><span class="taxonomy-label">Publications</span><span class="taxonomy-count">3</span></a></li>
+        
+      </ul>
+    </div>
+  
+
+		
+	
+
+          </aside>
+          <main class="col-12 col-md-9 col-xl-8 pl-md-5 pr-md-4" role="main">
+            
+<div class="td-content">
+	<h1>Textbook: Secondary Analysis of Electronic Health Records, 2016</h1>
+	<div class="lead">MIT Critical Data published an open access textbook walking through the process for analyzing health data in 2016 which has been downloaded more than 1.3 million times.</div>
+	<div class="td-byline mb-4">
+		
+		<time datetime="2016-06-01" class="text-muted">Wednesday, June 01, 2016</time>
+	</div>
+	<header class="article-meta">
+		
+
+  
+    
+      
+
+
+<div class="taxonomy taxonomy-terms-article taxo-categories">
+  <h5 class="taxonomy-title">Categories:</h5>
+  <ul class="taxonomy-terms">
+    
+      <li><a class="taxonomy-term" href="/categories/books/" data-taxonomy-term="books"><span class="taxonomy-label">Books</span></a></li>
+    
+  </ul>
+</div>
+
+    
+      
+
+
+<div class="taxonomy taxonomy-terms-article taxo-people">
+  <h5 class="taxonomy-title">People:</h5>
+  <ul class="taxonomy-terms">
+    
+      <li><a class="taxonomy-term" href="/people/alistair-johnson/" data-taxonomy-term="alistair-johnson"><span class="taxonomy-label">Alistair Johnson</span></a></li>
+    
+      <li><a class="taxonomy-term" href="/people/dominic-marshall/" data-taxonomy-term="dominic-marshall"><span class="taxonomy-label">Dominic Marshall</span></a></li>
+    
+      <li><a class="taxonomy-term" href="/people/jesse-raffa/" data-taxonomy-term="jesse-raffa"><span class="taxonomy-label">Jesse Raffa</span></a></li>
+    
+      <li><a class="taxonomy-term" href="/people/justin-salciccioli/" data-taxonomy-term="justin-salciccioli"><span class="taxonomy-label">Justin Salciccioli</span></a></li>
+    
+      <li><a class="taxonomy-term" href="/people/kenneth-paik/" data-taxonomy-term="kenneth-paik"><span class="taxonomy-label">Kenneth Paik</span></a></li>
+    
+      <li><a class="taxonomy-term" href="/people/leo-anthony-celi/" data-taxonomy-term="leo-anthony-celi"><span class="taxonomy-label">Leo Anthony Celi</span></a></li>
+    
+      <li><a class="taxonomy-term" href="/people/matthieu-komorowski/" data-taxonomy-term="matthieu-komorowski"><span class="taxonomy-label">Matthieu Komorowski</span></a></li>
+    
+      <li><a class="taxonomy-term" href="/people/mohammad-ghassemi/" data-taxonomy-term="mohammad-ghassemi"><span class="taxonomy-label">Mohammad Ghassemi</span></a></li>
+    
+      <li><a class="taxonomy-term" href="/people/peter-charlton/" data-taxonomy-term="peter-charlton"><span class="taxonomy-label">Peter Charlton</span></a></li>
+    
+      <li><a class="taxonomy-term" href="/people/tom-joseph-pollard/" data-taxonomy-term="tom-joseph-pollard"><span class="taxonomy-label">Tom Joseph Pollard</span></a></li>
+    
+      <li><a class="taxonomy-term" href="/people/tristan-naumann/" data-taxonomy-term="tristan-naumann"><span class="taxonomy-label">Tristan Naumann</span></a></li>
+    
+  </ul>
+</div>
+
+    
+  
+
+		
+	</header>
+	<p><a href="https://link.springer.com/book/10.1007/978-3-319-43742-2" target="_blank">Published by Springer</a></p>
+<p>This book trains the next generation of scientists representing different disciplines to leverage the data generated during routine patient care. It formulates a more complete lexicon of evidence-based recommendations and support shared, ethical decision making by doctors with their patients.</p>
+<p>Diagnostic and therapeutic technologies continue to evolve rapidly, and both individual practitioners and clinical teams face increasingly complex ethical decisions. Unfortunately, the current state of medical knowledge does not provide the guidance to make the majority of clinical decisions on the basis of evidence.</p>
+<p>The present research infrastructure is inefficient and frequently produces unreliable results that cannot be replicated. Even randomized controlled trials (RCTs), the traditional gold standards of the research reliability hierarchy, are not without limitations. They can be costly, labor intensive, and slow, and can return results that are seldom generalizable to every patient population. Furthermore, many pertinent but unresolved clinical and medical systems issues do not seem to have attracted the interest of the research enterprise, which has come to focus instead on cellular and molecular investigations and single-agent (e.g., a drug or device) effects. For clinicians, the end result is a bit of a “data desert” when it comes to making decisions. The new research infrastructure proposed in this book will help the medical profession to make ethically sound and well informed decisions for their patients.</p>
+<p>Authors <em>(Listed Alphabetically)</em>:</p>
+<blockquote>
+<p><strong>MIT Critical Data</strong></p>
+<ul>
+<li>Alistair Johnson</li>
+<li>Dominic Marshall</li>
+<li>Jesse Raffa</li>
+<li>Justin Salciccioli</li>
+<li>Kenneth E. Paik</li>
+<li>Leo Anthony Celi</li>
+<li>Matthieu Komorowski</li>
+<li>Mohammad Ghassemi</li>
+<li>Peter Charlton</li>
+<li>Tom Joseph Pollard</li>
+<li>Tristan Naumann</li>
+</ul>
+</blockquote>
+<p><img src="cover.png" alt="Global Health Informatics" title="Global Health Informatics"></p>
+
+	
+
+	<ul class="list-unstyled d-flex justify-content-between align-items-center mb-0 pt-5">
+  <li>
+    <a class="btn btn-primary disabled"><span class="mr-1">←</span>Previous</a>
+  </li>
+    <a href="/news/curriculum/text_global_health_informatics/" aria-label="Next - Textbook: Global Health Informatics" class="btn btn-primary">Next<span class="ml-1">→</span></a>
+  </li>
+</ul>
+
+</div>
+
+
+          </main>
+        </div>
+      </div>
+      
+<footer class="bg-dark py-5 row d-print-none">
+  <div class="container-fluid mx-sm-5">
+    <div class="row">
+      <div class="col-6 col-sm-4 text-xs-center order-sm-2">
+        
+        
+        
+<ul class="list-inline mb-0">
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Twitter" aria-label="Twitter">
+    <a class="text-white" target="_blank" rel="noopener" href="https://twitter.com/mitcriticaldata" aria-label="Twitter">
+      <i class="fab fa-twitter"></i>
+    </a>
+  </li>
+  
+</ul>
+
+        
+        
+      </div>
+      <div class="col-6 col-sm-4 text-right text-xs-center order-sm-3">
+        
+        
+        
+<ul class="list-inline mb-0">
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="GitHub" aria-label="GitHub">
+    <a class="text-white" target="_blank" rel="noopener" href="https://github.com/mit-lcp" aria-label="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+  </li>
+  
+</ul>
+
+        
+        
+      </div>
+      <div class="col-12 col-sm-4 text-center py-2 order-sm-2">
+        <small class="text-white">&copy; 2022 MIT Crtiical Data All Rights Reserved</small>
+        <small class="ml-1"><a href="https://web.mit.edu/privacy/" target="_blank" rel="noopener">Privacy Policy</a></small>
+	
+		<p class="mt-2"><a href="/about/">MIT Critical Data</a></p>
+	
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA=="
+    crossorigin="anonymous"></script>
+
+
+
+
+
+<script src='/js/tabpane-persist.js'></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/js/main.min.68e31ec429bf4c76d0cfc803a06912682cfe4274c4cafeb4d70d00cfe3c3b618.js" integrity="sha256-aOMexCm/THbQz8gDoGkSaCz&#43;QnTEyv601w0Az&#43;PDthg=" crossorigin="anonymous"></script>
+
+
+
+
+  </body>
+</html>
