@@ -1,6 +1,6 @@
 
 ---
-title: "News About Docsy"
+title: "Publications"
 linkTitle: "Publications"
 weight: 30
 icon: fas fa-marker
