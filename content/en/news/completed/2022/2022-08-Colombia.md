@@ -1,8 +1,9 @@
 
 ---
 categories: ["Datathons"]
-title: "2022 Make Health Colombia"
-linkTitle: "2022 08-03: Colombia"
+title: "Make Health Colombia"
+linkTitle: "Aug 2022: Colombia"
+weight: 1
 date: 2022-05-20
 description: >
   Join us August 3-5 in Medellín.

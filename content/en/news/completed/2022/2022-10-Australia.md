@@ -1,8 +1,9 @@
 
 ---
 categories: ["Datathons"]
-title: "2022 AI in Healthcare Training Program & Datathon"
-linkTitle: "2022 10-15: Australia"
+title: "AI in Healthcare Training Program & Datathon"
+linkTitle: "Oct 2022: Australia"
+weight: 3
 date: 2022-05-20
 description: >
   Join us October 15-16 in Australia.
