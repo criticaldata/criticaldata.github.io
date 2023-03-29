@@ -1,6 +1,7 @@
 ---
-title: "Technical Talks"
+title: "Tech Talks"
 linkTitle: "Tech Talks"
+icon: fas fa-calendar
 menu:
   main:
     weight: 40
@@ -14,9 +15,11 @@ Hello.
 
 This is the **Technical Talks** section.
 
-Tuesdays 12PM ET (GMT-5)
+This page will cover talks made by members of the Laboratory for Computational Physiology (LCP) aswell as collaborators. 
 
-Consortium members and academic partners are invited to join.
+Talks are held Tuesdays 12PM ET (GMT-5)
+
+Consortium members and academic partners are invited to join. Please contact us if interested in the zoom link for these talks.
 
 {{% /pageinfo %}}
 
