@@ -111,7 +111,7 @@ id = "UA-00000000-0"
 # section = ["HTML", "print", "RSS"]
 
 [params]
-copyright = "MIT Crtiical Data"
+copyright = "MIT Critical Data"
 privacy_policy = "https://web.mit.edu/privacy/"
 
 # First one is picked as the Twitter card image if not set on page.
