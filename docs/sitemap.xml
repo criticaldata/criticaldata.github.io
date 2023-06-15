@@ -2,14 +2,77 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/news/upcoming/2023-04-brazil/</loc>
+    <lastmod>2023-03-28T14:26:01-04:00</lastmod>
+  </url><url>
+    <loc>/news/completed/2022/2022-08-colombia/</loc>
+    <lastmod>2023-03-28T14:26:01-04:00</lastmod>
+  </url><url>
+    <loc>/news/completed/2023/2023_01-chile/</loc>
+    <lastmod>2023-03-28T14:26:01-04:00</lastmod>
+  </url><url>
     <loc>/consortium/overview/</loc>
     <lastmod>2022-06-14T04:34:08-04:00</lastmod>
+  </url><url>
+    <loc>/news/upcoming/2023-05-mit/</loc>
+    <lastmod>2023-03-28T14:26:01-04:00</lastmod>
+  </url><url>
+    <loc>/news/completed/2023/2023-02-thailand/</loc>
+    <lastmod>2023-03-28T14:26:01-04:00</lastmod>
+  </url><url>
+    <loc>/news/completed/2022/2022-09-norway/</loc>
+    <lastmod>2023-03-28T14:26:01-04:00</lastmod>
   </url><url>
     <loc>/consortium/documents/</loc>
     <lastmod>2022-06-14T04:34:08-04:00</lastmod>
   </url><url>
+    <loc>/news/upcoming/2023-05-australia/</loc>
+    <lastmod>2023-03-28T14:26:01-04:00</lastmod>
+  </url><url>
+    <loc>/news/completed/2023/2023-03-newzealand/</loc>
+    <lastmod>2023-03-28T14:26:01-04:00</lastmod>
+  </url><url>
+    <loc>/news/completed/2022/2022-10-australia/</loc>
+    <lastmod>2023-03-28T14:26:01-04:00</lastmod>
+  </url><url>
+    <loc>/news/upcoming/2023-06-china/</loc>
+    <lastmod>2023-03-28T14:26:01-04:00</lastmod>
+  </url><url>
+    <loc>/news/completed/2022/2022-11-spain/</loc>
+    <lastmod>2023-03-28T14:26:01-04:00</lastmod>
+  </url><url>
+    <loc>/news/completed/2022/2022-12-singapore/</loc>
+    <lastmod>2023-03-28T14:26:01-04:00</lastmod>
+  </url><url>
+    <loc>/news/upcoming/2023-07-slovakia/</loc>
+    <lastmod>2023-03-28T14:26:01-04:00</lastmod>
+  </url><url>
+    <loc>/news/upcoming/2023-07-uganda/</loc>
+    <lastmod>2023-03-28T14:26:01-04:00</lastmod>
+  </url><url>
+    <loc>/news/upcoming/2023-08-emory/</loc>
+    <lastmod>2023-03-28T14:26:01-04:00</lastmod>
+  </url><url>
+    <loc>/news/upcoming/2023-09-japan/</loc>
+    <lastmod>2023-03-28T14:26:01-04:00</lastmod>
+  </url><url>
+    <loc>/news/upcoming/2023-09-philippines/</loc>
+    <lastmod>2023-03-28T14:26:01-04:00</lastmod>
+  </url><url>
+    <loc>/news/upcoming/2023-10-thailand/</loc>
+    <lastmod>2023-03-28T14:26:01-04:00</lastmod>
+  </url><url>
     <loc>/news/announce/</loc>
     <lastmod>2022-06-14T04:34:08-04:00</lastmod>
+  </url><url>
+    <loc>/news/upcoming/2023-10-mexico/</loc>
+    <lastmod>2023-03-28T14:26:01-04:00</lastmod>
+  </url><url>
+    <loc>/news/upcoming/2023-11-spain/</loc>
+    <lastmod>2023-03-28T14:26:01-04:00</lastmod>
+  </url><url>
+    <loc>/news/upcoming/2023-11-argentina/</loc>
+    <lastmod>2023-03-28T14:26:01-04:00</lastmod>
   </url><url>
     <loc>/consortium/</loc>
     <lastmod>2022-06-17T16:49:21-04:00</lastmod>
@@ -20,22 +83,37 @@
     <loc>/news/upcoming/</loc>
     <lastmod>2022-06-14T04:34:08-04:00</lastmod>
   </url><url>
+    <loc>/news/publications/2021/</loc>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
+  </url><url>
+    <loc>/news/completed/2022/</loc>
+    <lastmod>2023-03-28T14:26:01-04:00</lastmod>
+  </url><url>
+    <loc>/news/publications/2022/</loc>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
+  </url><url>
+    <loc>/news/completed/2023/</loc>
+    <lastmod>2023-03-28T14:26:01-04:00</lastmod>
+  </url><url>
     <loc>/news/completed/</loc>
     <lastmod>2022-06-14T04:34:08-04:00</lastmod>
   </url><url>
     <loc>/news/publications/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
   </url><url>
     <loc>/news/curriculum/</loc>
     <lastmod>2022-06-14T04:34:08-04:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2023-03-29T08:29:42-04:00</lastmod>
+  </url><url>
+    <loc>/categories/datathons/</loc>
+    <lastmod>2023-03-29T08:29:42-04:00</lastmod>
   </url><url>
     <loc>/news/announce/website_update_2022/</loc>
     <lastmod>2022-06-17T16:49:21-04:00</lastmod>
   </url><url>
     <loc>/people/abbas-zeitoun/</loc>
-    <lastmod>2022-06-17T16:49:21-04:00</lastmod>
-  </url><url>
-    <loc>/categories/</loc>
     <lastmod>2022-06-17T16:49:21-04:00</lastmod>
   </url><url>
     <loc>/categories/courses/</loc>
@@ -48,7 +126,7 @@
     <lastmod>2022-06-17T16:49:21-04:00</lastmod>
   </url><url>
     <loc>/people/leo-anthony-celi/</loc>
-    <lastmod>2022-06-17T16:49:21-04:00</lastmod>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
   </url><url>
     <loc>/people/marzeyeh-ghassemi/</loc>
     <lastmod>2022-06-17T16:49:21-04:00</lastmod>
@@ -57,130 +135,82 @@
     <lastmod>2022-06-17T16:49:21-04:00</lastmod>
   </url><url>
     <loc>/people/</loc>
-    <lastmod>2022-06-17T16:49:21-04:00</lastmod>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
   </url><url>
     <loc>/people/alan-hubbard/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
   </url><url>
     <loc>/people/andrew-bishara/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
   </url><url>
-    <loc>/news/publications/clinical_ai_quality_improvement/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
+    <loc>/news/publications/2022/clinical_ai_quality_improvement/</loc>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
   </url><url>
     <loc>/people/ivana-malenica/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
   </url><url>
     <loc>/people/jean-feng/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
   </url><url>
     <loc>/categories/publications/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
   </url><url>
     <loc>/people/rachael-phillips/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
   </url><url>
     <loc>/people/romain-pirracchio/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
   </url><url>
-    <loc>/news/publications/distributed_approach_to-regulation_of_clinical_ai/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
+    <loc>/news/publications/2022/distributed_approach_to-regulation_of_clinical_ai/</loc>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
   </url><url>
     <loc>/people/erin-duralde/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
   </url><url>
     <loc>/people/felix-greaves/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
   </url><url>
     <loc>/people/gopal-kotecha/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
   </url><url>
     <loc>/people/heather-mattie/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
   </url><url>
     <loc>/people/melanie-wright/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
   </url><url>
     <loc>/people/trishan-panch/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
-  </url><url>
-    <loc>/news/upcoming/2022-0803-datathon-colombia/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
-  </url><url>
-    <loc>/news/upcoming/2022-0917-norway/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
-  </url><url>
-    <loc>/news/upcoming/2022-1015-austrailia/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
-  </url><url>
-    <loc>/news/upcoming/2022-1103-spain/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
-  </url><url>
-    <loc>/news/upcoming/2022-1201-singapore/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
-  </url><url>
-    <loc>/news/upcoming/2023_01-chile/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
-  </url><url>
-    <loc>/news/upcoming/2023-02-thailand/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
-  </url><url>
-    <loc>/news/upcoming/2023-03-newzealand/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
-  </url><url>
-    <loc>/news/upcoming/2023-04-brazil/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
-  </url><url>
-    <loc>/news/upcoming/2023-05-greece/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
-  </url><url>
-    <loc>/news/upcoming/2023-06-china/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
-  </url><url>
-    <loc>/news/upcoming/2023-07-slovakia/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
-  </url><url>
-    <loc>/news/upcoming/2023-09-japan/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
-  </url><url>
-    <loc>/news/upcoming/2023-11-spain/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
-  </url><url>
-    <loc>/news/upcoming/2023-12-argentina/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
-  </url><url>
-    <loc>/categories/datathons/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
   </url><url>
     <loc>/news/completed/pre2022-archive/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
+    <lastmod>2023-03-29T08:29:42-04:00</lastmod>
   </url><url>
-    <loc>/news/publications/systematic_review_federated_learning/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
+    <loc>/news/publications/2022/systematic_review_federated_learning/</loc>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
   </url><url>
     <loc>/people/aakanksha-rana/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
   </url><url>
     <loc>/people/aldo-robles-ar%C3%A9valo/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
   </url><url>
     <loc>/people/barbara-lam/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
   </url><url>
     <loc>/people/dana-moukheiber/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
   </url><url>
     <loc>/people/david-w.-bates/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
   </url><url>
     <loc>/people/deborah-goss/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
   </url><url>
     <loc>/people/matthew-crowson/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
   </url><url>
     <loc>/people/sreekar-mantena/</loc>
-    <lastmod>2022-06-14T04:34:08-04:00</lastmod>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
   </url><url>
     <loc>/people/eric-gottleib/</loc>
     <lastmod>2022-06-17T16:49:21-04:00</lastmod>
@@ -194,8 +224,38 @@
     <loc>/people/xavi-borrat/</loc>
     <lastmod>2022-06-17T16:49:21-04:00</lastmod>
   </url><url>
+    <loc>/news/publications/2021/acute-kidney-injury/</loc>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
+  </url><url>
+    <loc>/people/andrew-j-zimolzak/</loc>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
+  </url><url>
+    <loc>/people/mengling-feng/</loc>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
+  </url><url>
+    <loc>/people/sahar-alkhairy/</loc>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
+  </url><url>
     <loc>/news/curriculum/hst953_2021/</loc>
     <lastmod>2022-06-17T16:49:21-04:00</lastmod>
+  </url><url>
+    <loc>/people/christopher-v-cosgriff/</loc>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
+  </url><url>
+    <loc>/people/francois-jaulin/</loc>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
+  </url><url>
+    <loc>/people/laura-c-myers/</loc>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
+  </url><url>
+    <loc>/people/m-abdulhadi-alagha/</loc>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
+  </url><url>
+    <loc>/news/publications/2021/patient-harm-during-covid-pandemic/</loc>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
+  </url><url>
+    <loc>/people/wesley-yeung/</loc>
+    <lastmod>2023-03-28T16:49:12-04:00</lastmod>
   </url><url>
     <loc>/consortium/documents/annual_report2020/</loc>
     <lastmod>2022-06-14T04:34:08-04:00</lastmod>
@@ -275,6 +335,6 @@
     <loc>/tags/</loc>
   </url><url>
     <loc>/tech/</loc>
-    <lastmod>2022-07-01T09:44:19-04:00</lastmod>
+    <lastmod>2023-03-29T08:29:42-04:00</lastmod>
   </url>
 </urlset>
