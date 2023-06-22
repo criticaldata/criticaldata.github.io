@@ -1,6 +1,6 @@
 
 ---
-title: "MIT-LCP Crtiical Data Consortium"
+title: "MIT-LCP Critical Data Consortium"
 linkTitle: "Consortium "
 weight: 20
 
