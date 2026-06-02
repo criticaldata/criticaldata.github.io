@@ -19,3 +19,5 @@ This program will introduce big data capture analytics and AI in healthcare to e
 This is an incredible opportunity to learn from world leaders in the field with course content developed by the Massachusetts Institute of Technology and the Gradient Institute.
 
 The courses will take place in-person with workshops facilitated in each major city nationally starting on July 2022.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rdGJwHgx3Vg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
